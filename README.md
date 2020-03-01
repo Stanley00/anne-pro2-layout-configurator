@@ -4,7 +4,9 @@ Anne Pro 2 Layout Configurator
 Introduction
 ==
 
-Home-made Anne Pro 2 Layout Configurator with more keys and more flexible than ObinsKit application
+Home-made Anne Pro 2 Layout Configurator with more keys and more flexible than ObinsKit application.
+
+[Online Demo](https://stanley00.github.io/anne-pro2-layout-configurator/)
 
 How to use
 ==
