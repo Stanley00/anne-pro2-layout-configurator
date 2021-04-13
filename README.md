@@ -4,7 +4,7 @@ Anne Pro 2 Layout Configurator
 Introduction
 ==
 
-Home-made Anne Pro 2 Layout Configurator with more keys and more flexible than ObinsKit application.
+Home-made Anne Pro 2 Layout Configurator for original ObinsKit firmware but with more keys and more flexible than ObinsKit application.
 
 [Online Demo](https://stanley00.github.io/anne-pro2-layout-configurator/)
 
@@ -31,4 +31,9 @@ Notes
 
 - All code released under Public domain or Unlicence
 - This is my `hellworld` project for `html+css` so please expected bugs.
-- Pullrequests are welcome
+- Pull requests are welcome
+
+Update
+==
+
+There's qmk port for Anne Pro 2 with more features at https://github.com/OpenAnnePro
