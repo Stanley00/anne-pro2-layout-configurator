@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+h1 {
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+input[type='button'],
+input[type='text'] {
+  cursor: pointer;
+  margin: 0 0.2em;
+  padding: 0.2em;
+  border: solid 0.1em black;
+  border-radius: 0.2em;
+  outline: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.keyboard-base {
+  margin: 1em auto auto auto;
+  max-width: 1150px;
+  min-width: 1020px;
+  padding: 1em;
+  background-color: rgb(197, 197, 197);
+  border-radius: 0.5em;
+  display: grid;
+  grid-template-columns: repeat(60, 1fr);
+  grid-template-rows: repeat(5, 63px);
+  grid-gap: 0.25em;
+}
+
+.keyboard-x {
+  padding: 1em;
+  margin: 3em auto;
+  max-width: 1150px;
+  min-width: 1020px;
+  background-color: rgb(197, 197, 197);
+  border-radius: 0.5em;
+
+  input {
+    width: 100%;
+    min-height: 2em;
+    margin-bottom: 1em;
+    padding: 0.2em;
+    border: solid 0.1em black;
+    border-radius: 0.2em;
+    outline: none;
+  }
+
+  .keylist {
+    display: grid;
+    grid-template-columns: repeat(60, 1fr);
+    grid-template-rows: repeat(14, 63px);
+    grid-gap: 5px;
+  }
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  border: 2px solid black;
+  border-radius: 5px;
+  grid-column: span 4;
+  text-align: center;
+  padding-top: 17px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #eeeeee;
+  }
+}
+
+.with_shift {
+  padding-top: 7px;
+  span {
+    font-size: 17px;
+  }
+}
+
+.small_text {
+  span {
+    font-size: 17px;
+  }
+}
+
+.modified {
+  background-color: #edfa39;
+}
+
+.selected {
+  background-color: #ee7777;
+}
+
+.u125 {
+  grid-column: span 5;
+}
+
+.u150 {
+  grid-column: span 6;
+}
+
+.u175 {
+  grid-column: span 7;
+}
+
+.u2 {
+  grid-column: span 8;
+}
+
+.u225 {
+  grid-column: span 9;
+}
+
+.u250 {
+  grid-column: span 10;
+}
+
+.u275 {
+  grid-column: span 11;
+}
+
+.u625 {
+  grid-column: span 25;
+}
